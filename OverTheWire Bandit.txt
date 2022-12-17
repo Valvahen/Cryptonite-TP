@@ -1,0 +1,47 @@
+ssh bandit@bandit.labs.overthewire.org -p 2220
+
+username password
+
+bandit0  bandit0
+cat 
+
+bandit1  NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+cat ./- 
+
+bandit2  rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+cat "spaces in the name"
+
+bandit3  aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+cd inhere
+ls -al
+cat .hidden
+
+bandit4  2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+file ./*
+cat ./-file07
+
+bandit5  lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+find . -type f -size 1033c ! -executable
+
+bandit6  P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+find / -type f -user bandit7 -group bandit6 -size 33c
+
+bandit7  z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S 
+strings data.txt | grep "millionth"
+
+bandit8  TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+sort data.txt | uniq -c
+
+bandit9  EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+strings data.txt | grep "="
+
+bandit10 G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+base64 -d data.txt
+
+bandit11 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+rot13 on CyberChef
+
+bandit12 
+
+
+
