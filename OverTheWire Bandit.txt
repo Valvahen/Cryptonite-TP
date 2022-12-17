@@ -41,7 +41,7 @@ base64 -d data.txt
 bandit11 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 rot13 on CyberChef
 
-bandit12 
+bandit12 JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
 
 
